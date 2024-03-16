@@ -8,9 +8,10 @@ _Source code_ website yayasan mentari sehat indonesia dibuat menggunakan [larave
 3. Composer v2
 4. Git
 
-## Instalation
+Pastikan sudah terpasang semua.
+## Installation
 
-Untuk clone dari github :
+Untuk _clone_ dari github :
 
 ```bash
 git clone https://github.com/hasbiardianto/web-msi-kendal.git
@@ -34,9 +35,7 @@ Install semua package npm yang digunakan :
 npm install
 ```
 
-## Running
-
-Untuk menjalankan website di local :
+Untuk menjalankan website :
 
 ```bash
 npm run dev
