@@ -5,8 +5,10 @@
             {{-- <span class="self-center text-2xl font-semibold whitespace-nowrap :text-white">MSI Kab. Kendal</span> --}}
         </a>
         <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button type="button"
-                class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 text-center  :bg-green-600  :hover:bg-green-700  :focus:ring-green-800">Login</button>
+            <a href="/login">
+                <button type="button"
+                    class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-4 py-2 text-center  :bg-green-600  :hover:bg-green-700  :focus:ring-green-800">Login</button>
+            </a>
             <button data-collapse-toggle="navbar-sticky" type="button"
                 class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200  :text-gray-400  :hover:bg-gray-700  :focus:ring-gray-600"
                 aria-controls="navbar-sticky" aria-expanded="false">
@@ -32,7 +34,8 @@
                 </li>
                 <li>
                     <a href="/about"
-                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md: :hover:text-green-500 :text-white :hover:bg-gray-700  :hover:text-white md: :hover:bg-transparent :border-gray-700">Tentang Kami</a>
+                        class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md: :hover:text-green-500 :text-white :hover:bg-gray-700  :hover:text-white md: :hover:bg-transparent :border-gray-700">Tentang
+                        Kami</a>
                 </li>
                 <li>
                     <a href="/contact"

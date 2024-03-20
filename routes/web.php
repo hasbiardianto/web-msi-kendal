@@ -33,3 +33,11 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/login', function () {
+    return view('auth.login');
+});
+
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+});
