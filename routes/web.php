@@ -38,6 +38,6 @@ Route::get('/login', function () {
     return view('auth.login');
 });
 
-Route::get('/dashboard', function () {
+Route::get('/admin', function () {
     return view('admin.dashboard');
 });

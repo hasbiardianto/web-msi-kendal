@@ -1,33 +1,26 @@
 <footer class="bg-white :bg-gray-900 border-t-2">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
-            <div class="mb-6 md:mb-0">
-                <a href="https://flowbite.com/" class="flex items-center">
-                    <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
-                    <span class="self-center text-xl flex flex-col font-semibold whitespace-nowrap :text-white">Mentari
-                        Sehat Indonesia <span class="text-base">Kab. Kendal</span></span>
+            <div class="mb-6 md:mb-0 md:mx-4">
+                <a href="/" class="flex items-center md:flex-col">
+                    <img src="/img/logo-msi.jpg" class="h-28 me-3" alt="Logo Mentari Sehat Kab. Kendal" />
                 </a>
             </div>
-            <div class="grid grid-cols-2 gap-8 md:gap-6 md:grid-cols-3">
+            <div class="grid grid-cols-2 gap-8 md:flex md:gap-6">
                 <div class="max-w-[10000px]">
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 :text-white">Alamat</h2>
-                    <ul class="text-gray-500 :text-gray-400 font-medium">
+                    <ul class="text-gray-500 md:max-w-[300px] font-medium">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline text-sm whitespace-break-spaces"></a>
-                        </li>
-                        <li class="mb-4">
-                            <a href="#" class="hover:underline text-sm"></a>
+                            <a href="#" class="text-sm whitespace-break-spaces">Perumahan RSS Blok S No. 21 RT5/RW6, Langenharjo Kecamatan Kendal, Kabupaten Kendal
+                            </a>
                         </li>
                     </ul>
                 </div>
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 :text-white">Ikuti Kami</h2>
-                    <ul class="text-gray-500 :text-gray-400 font-medium">
+                    <ul class="text-gray-500 md:max-w-[200px] font-medium">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline text-sm">Instagram</a>
-                        </li>
-                        <li>
-                            <a href="#" class="hover:underline text-sm">Youtube</a>
+                            <a href="http://instagram.com/msi.kabkendal" target="_blank" class="hover:underline text-sm">Instagram</a>
                         </li>
                     </ul>
                 </div>
@@ -35,10 +28,10 @@
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 :text-white">Hubungi Kami</h2>
                     <ul class="text-gray-500 :text-gray-400 font-medium">
                         <li class="mb-4">
-                            <a href="#" class="hover:underline text-sm"></a>
+                            <a href="mailto:ssrmsi.kendal@gmail.com" class="hover:underline text-sm">Email : ssrmsi.kendal@gmail.com</a>
                         </li>
                         <li>
-                            <a href="#" class="hover:underline text-sm">Email: mentarisehatindonesia@gmail.com</a>
+                            <a href="#" class="hover:underline text-sm">No Telp. 081327120851</a>
                         </li>
                     </ul>
                 </div>
