@@ -26,9 +26,8 @@
                         </svg>
                     </button>
                     <a href="https://flowbite.com" class="flex ms-2 md:me-24">
-                        <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
-                        <span
-                            class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">Mentari
+                        <img src="/img/logo-msi.jpg" class="h-8 me-3" alt="FlowBite Logo" />
+                        <span class="self-center md:text-xl font-semibold text-xs">Mentari
                             Sehat Indonesia Kab. Kendal</span>
                     </a>
                 </div>
@@ -74,7 +73,7 @@
         <div class="h-full px-3 pb-4 overflow-y-auto bg-white dark:bg-gray-800">
             <ul class="space-y-2 font-medium">
                 <li>
-                    <a href="#"
+                    <a href="/admin"
                         class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <svg class="w-5 h-5 text-gray-800 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
@@ -88,7 +87,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="/admin/berita"
                         class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
@@ -101,7 +100,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="/admin/pengurus"
                         class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <svg class="flex-shrink-0 w-5 h-5 text-gray-800 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
@@ -113,7 +112,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#"
+                    <a href="/admin/pesan"
                         class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                         <svg class="flex-shrink-0 w-5 h-5 text-gray-800 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
@@ -137,7 +136,7 @@
                                 d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778" />
                         </svg>
                         <span class="flex-1 ms-3 whitespace-nowrap">Lihat Website</span>
-                        
+
                     </a>
                 </li>
                 <li>
@@ -156,6 +155,13 @@
             </ul>
         </div>
     </aside>
+    <main>
+        <div class="p-4 sm:ml-64">
+            <div class="p-4 mt-14">
+                @yield('content')
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

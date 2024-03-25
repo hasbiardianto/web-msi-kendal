@@ -3,10 +3,11 @@
 @section('content')
     <div class="flex flex-col-reverse md:flex-row mx-4 gap-8">
         <section class="rounded-lg flex-grow">
-            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md flex flex-col">
                 <h2 class="mb-8 md:text-4xl text-xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
                     Alamat
                 </h2>
+                <span class="p-4 bg-gray-200 text-center font-semibold text-gray-800 rounded-t-lg">Perumahan RSS Blok S No. 21 RT5/RW6, Langenharjo Kecamatan Kendal, Kabupaten Kendal</span>
                 <div class="mapouter">
                     <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
                             marginheight="0" marginwidth="0"

@@ -32,12 +32,12 @@
                         class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md: :hover:text-green-500 :text-white :hover:bg-gray-700  :hover:text-white md: :hover:bg-transparent :border-gray-700">Berita</a>
                 </li>
                 <li>
-                    <a href="/about"
+                    <a href="/tentang-kami"
                         class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md: :hover:text-green-500 :text-white :hover:bg-gray-700  :hover:text-white md: :hover:bg-transparent :border-gray-700">Tentang
                         Kami</a>
                 </li>
                 <li>
-                    <a href="/contact"
+                    <a href="/kontak"
                         class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md: :hover:text-green-500  :text-white  :hover:bg-gray-700  :hover:text-white md: :hover:bg-transparent  :border-gray-700">Kontak</a>
                 </li>
             </ul>

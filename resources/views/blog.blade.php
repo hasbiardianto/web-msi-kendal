@@ -8,7 +8,7 @@
                     Kegiatan
                 </h2>
             </div>
-            <div class="grid gap-8 lg:grid-cols-3">
+            <div class="grid gap-4 lg:grid-cols-3">
                 @for ($i = 0; $i < 5; $i++)
                     <x-card-blog />
                 @endfor
